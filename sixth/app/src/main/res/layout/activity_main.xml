@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/code"
+        android:layout_width="205dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:text="Code"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="191dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/send"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="210dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="84dp"
+        android:gravity="center"
+        android:text="Type Message"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/codeInput" />
+
+    <EditText
+        android:id="@+id/codeInput"
+        android:layout_width="241dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="36dp"
+        android:layout_weight="2"
+        android:ems="10"
+        android:hint="Write a message"
+        android:inputType="text"
+        android:paddingHorizontal="10dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/code" />
+
+    <EditText
+        android:id="@+id/messageInput"
+        android:layout_width="244dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="56dp"
+        android:layout_weight="2"
+        android:ems="10"
+        android:hint="Write a message"
+        android:inputType="text"
+        android:paddingHorizontal="10dp"
+        android:text=""
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="110dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        android:text="Send"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messageInput" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
