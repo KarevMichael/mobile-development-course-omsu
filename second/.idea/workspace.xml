@@ -6,7 +6,11 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8edd75da-51a9-4667-8922-8dc10fcd8661" name="Default Changelist" comment="" />
+    <list default="true" id="8edd75da-51a9-4667-8922-8dc10fcd8661" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +34,11 @@
       </state>
     </system>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1icmCp86ghTTOjd5dYwmmH5NSDo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
@@ -116,14 +125,18 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1602559982260">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2660" y="275" key="FileChooserDialogImpl/0.0.1827.1080/1920.0.1920.1040@1920.0.1920.1040" timestamp="1602559982260" />
     <state x="414" y="182" key="SettingsEditor" timestamp="1602215765496">
       <screen x="0" y="0" width="1827" height="1080" />
     </state>
     <state x="414" y="182" key="SettingsEditor/0.0.1827.1080/1920.0.1920.1040@0.0.1827.1080" timestamp="1602215765496" />
-    <state x="590" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1602215716460">
+    <state x="590" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1602559619566">
       <screen x="0" y="0" width="1827" height="1080" />
     </state>
-    <state x="590" y="364" key="com.intellij.ide.util.TipDialog/0.0.1827.1080/1920.0.1920.1040@0.0.1827.1080" timestamp="1602215716460" />
+    <state x="590" y="364" key="com.intellij.ide.util.TipDialog/0.0.1827.1080/1920.0.1920.1040@0.0.1827.1080" timestamp="1602559619566" />
     <state x="600" y="114" width="626" height="852" key="find.popup" timestamp="1602215977751">
       <screen x="0" y="0" width="1827" height="1080" />
     </state>

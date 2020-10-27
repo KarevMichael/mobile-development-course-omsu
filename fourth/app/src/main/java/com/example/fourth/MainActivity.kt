@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         private val context: Context,
         private val forward: (String, String) -> Unit
     ): BaseAdapter() {
-        private data class ProgrammingLanguage(val logo: Int, val name: String, val description: String = "lollololool")
+        private data class ProgrammingLanguage(val logo: Int, val name: String, val description: String = "Useful info about language")
         private val items = arrayOf(
             ProgrammingLanguage(R.drawable.ic_javascript_js_seeklogo_com, "JS"),
             ProgrammingLanguage(R.drawable.ic_kotlin_seeklogo_com, "Kotlin"),
